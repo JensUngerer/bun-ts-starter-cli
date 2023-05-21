@@ -1,11 +1,10 @@
 {
-  "name": "node-ts-starter-cli",
+  "name": "bun-ts-starter-cli",
   "version": "0.2.5",
-  "description": "Generate new NodeJS projects with TypeScript and esbuild.",
+  "description": "Generate new Server-Side-JavaScript projects with TypeScript and bun.",
   "keywords": [
     "cli",
-    "node",
-    "nodejs",
+    "bun",
     "ts",
     "typescript",
     "boilerplate",
@@ -13,16 +12,16 @@
     "starter",
     "template"
   ],
-  "homepage": "https://github.com/FreekMencke/node-ts-starter-cli#readme",
+  "homepage": "https://github.com/JensUngerer/node-ts-starter-cli#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/FreekMencke/node-ts-starter-cli.git"
+    "url": "https://github.com/JensUngerer/node-ts-starter-cli.git"
   },
   "license": "MIT",
-  "author": "Freek Mencke",
+  "author": "Freek Mencke / Jens Ungerer",
   "type": "module",
   "bin": {
-    "node-ts-starter-cli": "./bin/node-ts-starter-cli.js"
+    "bun-ts-starter-cli": "./bin/bun-ts-starter-cli.js"
   },
   "scripts": {
     "cz": "git cz",

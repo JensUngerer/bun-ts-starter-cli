@@ -6,7 +6,7 @@ import { createProject } from '../src/create.js';
 const yargsInstance = yargs(process.argv.slice(2));
 
 yargsInstance
-  .scriptName('node-ts-starter-cli.js')
+  .scriptName('bun-ts-starter-cli.js')
   .wrap(Math.min(100, yargsInstance.terminalWidth()))
   .usage('$0 <cmd>')
   .strictCommands()
